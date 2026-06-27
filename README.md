@@ -57,7 +57,8 @@ The project demonstrates modern test automation practices including Page Object 
 ```text
 tests/
 ├── ui/
-│   ├── login.spec.ts
+│   ├── auth.setup.ts
+│   ├── authentication.spec.ts
 │   └── checkout.spec.ts
 │
 ├── api/
@@ -73,7 +74,6 @@ pages/
 │
 helpers/
 ├── env.ts
-└── generateRandomEmails.ts
 │
 fixtures/
 └── pageFixture.ts
